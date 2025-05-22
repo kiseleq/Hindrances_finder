@@ -15,7 +15,7 @@ uploaded_file = st.file_uploader("Выберите изображение", type
 
 if uploaded_file is not None:
     # Отображаем оригинал
-    st.image(uploaded_file, caption="Загруженное изображение", use_column_width=True)
+    st.image(uploaded_file, caption="Загруженное изображение")
 
     # Кнопка запуска предсказания
     if st.button("📊 Предсказать"):
@@ -27,6 +27,6 @@ if uploaded_file is not None:
             if response.status_code == 200:
                 # Преобразуем ответ в изображение
                 image = Image.open(BytesIO(response.content))
-                st.image(image, caption="Результат предсказания", use_column_width=True)
+                st.image(image, caption="Результат предсказания")
             else:
                 st.error(f"Ошибка сервера: {response.status_code}")
