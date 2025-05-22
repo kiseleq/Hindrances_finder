@@ -15,17 +15,19 @@ def health():
 
 @app.post("/predict_image")
 def predict_image(file: UploadFile = File(...)):
-    # Сохраняем загруженное изображение
+    os.makedirs("images", exist_ok=True)  # Убедиться, что папка есть
+
     input_path = "images/test_img.jpg"
     with open(input_path, "wb") as buffer:
         shutil.copyfileobj(file.file, buffer)
 
-    # Запускаем модель и сохраняем результат в файл
     results = model.predict(input_path, conf=0.5)
-    results[0].save(filename="result.jpg")
 
-    # Возвращаем результат пользователю
-    return FileResponse("result.jpg", media_type="image/jpeg")
+    output_path = "images/result.jpg"
+    results[0].save(filename=output_path)
+
+    return FileResponse(output_path, media_type="image/jpeg")
+
 
 if __name__ == '__main__':
     import uvicorn
