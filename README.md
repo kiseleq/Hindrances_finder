@@ -52,14 +52,14 @@ pip install -r requirements.txt
 
 Запуск сервера:
 ```bash
-uvicorn main:app --reload --host 0.0.0.0 --port 8000
+uvicorn app_api:app --reload --host 127.0.0.1 --port 5000
 ```
 
-Сервер будет доступен по адресу: http://127.0.0.1:8000
+Сервер будет доступен по адресу: http://127.0.0.1:5000
 
 Пример запроса:
 ```bash
-curl -X POST http://127.0.0.1:8000/detect \
+curl -X POST http://127.0.0.1:5000/detect \
      -F "file=@test_image.jpg" \
      -H "Content-Type: multipart/form-data"
 ```
@@ -68,10 +68,10 @@ curl -X POST http://127.0.0.1:8000/detect \
 
 Запуск веб-приложения:
 ```bash
-streamlit run app.py --server.port 8501
+streamlit run srteamlit_app.py --server.port 5000
 ```
 
-Веб-интерфейс подключается к API по адресу `http://localhost:8501`.
+Веб-интерфейс подключается к API по адресу `http://localhost:5000`.
 
 ---
 
@@ -85,9 +85,9 @@ docker-compose up --build
 
 После сборки:
 
-API: http://localhost:8000
+API: http://localhost:5000
 
-Веб-интерфейс: http://localhost:8501
+Веб-интерфейс: http://localhost:5000
 
 ---
 
