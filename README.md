@@ -30,11 +30,11 @@
 
 <div style="display: flex; justify-content: space-around; align-items: center; flex-wrap: wrap;">
   <div style="text-align: center; margin: 10px;">
-    <img src="images/result.jpg" width="400" alt="Исходное изображение">
+    <img src="images/result.jpg" width="300" alt="Исходное изображение">
     <p><em>Исходное изображение</em></p>
   </div>
   <div style="text-align: center; margin: 10px;">
-    <img src="images/test_img.jpg " width="400" alt="Обработанное">
+    <img src="images/test_img.jpg " width="300" alt="Обработанное">
     <p><em>Обработанное</em></p>
   </div>
 </div>
@@ -42,11 +42,11 @@
 
 <div style="display: flex; justify-content: space-around; align-items: center; flex-wrap: wrap;">
   <div style="text-align: center; margin: 10px;">
-    <img src="images/result.jpg" width="400" alt="Исходное изображение">
+    <img src="images/result.jpg" width="300" alt="Исходное изображение">
     <p><em>Исходное изображение</em></p>
   </div>
   <div style="text-align: center; margin: 10px;">
-    <img src="images/test_img.jpg " width="400" alt="Обработанное">
+    <img src="images/test_img.jpg " width="300" alt="Обработанное">
     <p><em>Обработанное</em></p>
   </div>
 </div>
