@@ -19,6 +19,26 @@
 
 ---
 
+## Пример работы детектора
+
+<!-- ![Описание первого изображения](images/result.jpg)  
+![Описание второго изображения](images/test_img.jpg) -->
+
+<!-- <div align="center">
+  <img src="images/result.jpg" alt="Исходное изображение" width="400" />
+  <img src="images/test_img.jpg" alt="Обработанное" width="400" />
+</div> -->
+<div align="center">
+  <figure style="display:inline-block; margin: 10px;">
+    <img src="images/result.jpg" alt="Исходное изображение" width="400" />
+    <figcaption>Исходное изображение</figcaption>
+  </figure>
+  <figure style="display:inline-block; margin: 10px;">
+    <img src="images/test_img.jpg" alt="Обработанное" width="400" />
+    <figcaption>Обработанное</figcaption>
+  </figure>
+</div>
+
 ## Функционал
 
 - `/detect` — обнаружение препятствий на изображении
