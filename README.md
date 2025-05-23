@@ -28,23 +28,23 @@
   <img src="images/result.jpg" alt="Исходное изображение" width="400" />
   <img src="images/test_img.jpg" alt="Обработанное" width="400" />
 </div> -->
-<div align="center">
-  <figure style="display:inline-block; margin: 10px;">
-    <img src="images/result.jpg" alt="Исходное изображение" width="400" />
+<div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+  <figure style="margin: 0; text-align: center;">
+    <img src="images/result2.jpg" alt="Исходное изображение" width="400" />
     <figcaption>Исходное изображение</figcaption>
   </figure>
-  <figure style="display:inline-block; margin: 10px;">
-    <img src="images/test_img.jpg" alt="Обработанное" width="400" />
+  <figure style="margin: 0; text-align: center;">
+    <img src="images/test_img2.jpg" alt="Обработанное" width="400" />
     <figcaption>Обработанное</figcaption>
   </figure>
 </div>
 
-<div align="center">
-  <figure style="display:inline-block; margin: 10px;">
+<div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+  <figure style="margin: 0; text-align: center;">
     <img src="images/result.jpg" alt="Исходное изображение" width="400" />
     <figcaption>Исходное изображение</figcaption>
   </figure>
-  <figure style="display:inline-block; margin: 10px;">
+  <figure style="margin: 0; text-align: center;">
     <img src="images/test_img.jpg" alt="Обработанное" width="400" />
     <figcaption>Обработанное</figcaption>
   </figure>
