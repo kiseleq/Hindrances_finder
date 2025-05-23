@@ -39,6 +39,17 @@
   </figure>
 </div>
 
+<div align="center">
+  <figure style="display:inline-block; margin: 10px;">
+    <img src="images/result.jpg" alt="Исходное изображение" width="400" />
+    <figcaption>Исходное изображение</figcaption>
+  </figure>
+  <figure style="display:inline-block; margin: 10px;">
+    <img src="images/test_img.jpg" alt="Обработанное" width="400" />
+    <figcaption>Обработанное</figcaption>
+  </figure>
+</div>
+
 ## Функционал
 
 - `/detect` — обнаружение препятствий на изображении
