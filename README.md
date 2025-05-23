@@ -28,28 +28,15 @@
   <img src="images/test_img.jpg" alt="Обработанное" width="400" />
 </div> -->
 
-<div style="display: flex; justify-content: space-around; align-items: center; flex-wrap: wrap;">
-  <div style="text-align: center; margin: 10px;">
-    <img src="images/result.jpg" width="300" alt="Исходное изображение">
-    <p><em>Исходное изображение</em></p>
-  </div>
-  <div style="text-align: center; margin: 10px;">
-    <img src="images/test_img.jpg " width="300" alt="Обработанное">
-    <p><em>Обработанное</em></p>
-  </div>
-</div>
 
+| Исходное изображение        | Обработанное изображение     |
+|-----------------------------|------------------------------|
+| ![Исходное](images/result.jpg) | ![Обработанное](images/test_img.jpg) |
 
-<div style="display: flex; justify-content: space-around; align-items: center; flex-wrap: wrap;">
-  <div style="text-align: center; margin: 10px;">
-    <img src="images/result.jpg" width="300" alt="Исходное изображение">
-    <p><em>Исходное изображение</em></p>
-  </div>
-  <div style="text-align: center; margin: 10px;">
-    <img src="images/test_img.jpg " width="300" alt="Обработанное">
-    <p><em>Обработанное</em></p>
-  </div>
-</div>
+| Исходное изображение        | Обработанное изображение     |
+|-----------------------------|------------------------------|
+| ![Исходное](images/result2.jpg) | ![Обработанное](images/test_img2.jpg) |
+
 
 ## Функционал
 
