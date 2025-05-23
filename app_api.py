@@ -15,7 +15,7 @@ def health():
 
 @app.post("/predict_image")
 def predict_image(file: UploadFile = File(...)):
-    os.makedirs("images", exist_ok=True)  # Убедиться, что папка есть
+    os.makedirs("images", exist_ok=True)
 
     input_path = "images/test_img.jpg"
     with open(input_path, "wb") as buffer:
@@ -27,7 +27,6 @@ def predict_image(file: UploadFile = File(...)):
     results[0].save(filename=output_path)
 
     return FileResponse(output_path, media_type="image/jpeg")
-
 
 if __name__ == '__main__':
     import uvicorn
