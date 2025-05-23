@@ -12,7 +12,6 @@
 - [Запуск](#запуск)
   - [FastAPI (Backend)](#fastapi-backend)
   - [Streamlit (Frontend)](#streamlit-frontend)
-  - [Docker](#docker)
 - [Формат запроса](#формат-запроса)
 - [Конфигурация](#конфигурация)
 - [Обратная связь](#обратная-связь)
