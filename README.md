@@ -27,26 +27,28 @@
   <img src="images/result.jpg" alt="Исходное изображение" width="400" />
   <img src="images/test_img.jpg" alt="Обработанное" width="400" />
 </div> -->
-<div style="text-align: center;">
-  <figure style="display: inline-block; margin: 1em;">
-    <img src="images/result.jpg" alt="Исходное изображение" width="400" />
-    <figcaption>Исходное изображение</figcaption>
-  </figure>
-  <figure style="display: inline-block; margin: 1em;">
-    <img src="images/test_img.jpg" alt="Обработанное" width="400" />
-    <figcaption>Обработанное</figcaption>
-  </figure>
+
+<div style="display: flex; justify-content: space-around; align-items: center; flex-wrap: wrap;">
+  <div style="text-align: center; margin: 10px;">
+    <img src="images/result.jpg" width="400" alt="Исходное изображение">
+    <p><em>Исходное изображение</em></p>
+  </div>
+  <div style="text-align: center; margin: 10px;">
+    <img src="images/test_img.jpg " width="400" alt="Обработанное">
+    <p><em>Обработанное</em></p>
+  </div>
 </div>
 
-<div style="text-align: center;">
-  <figure style="display: inline-block; margin: 1em;">
-    <img src="images/result.jpg" alt="Исходное изображение" width="400" />
-    <figcaption>Исходное изображение</figcaption>
-  </figure>
-  <figure style="display: inline-block; margin: 1em;">
-    <img src="images/test_img.jpg" alt="Обработанное" width="400" />
-    <figcaption>Обработанное</figcaption>
-  </figure>
+
+<div style="display: flex; justify-content: space-around; align-items: center; flex-wrap: wrap;">
+  <div style="text-align: center; margin: 10px;">
+    <img src="images/result.jpg" width="400" alt="Исходное изображение">
+    <p><em>Исходное изображение</em></p>
+  </div>
+  <div style="text-align: center; margin: 10px;">
+    <img src="images/test_img.jpg " width="400" alt="Обработанное">
+    <p><em>Обработанное</em></p>
+  </div>
 </div>
 
 ## Функционал
