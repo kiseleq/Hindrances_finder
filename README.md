@@ -73,23 +73,6 @@ streamlit run srteamlit_app.py --server.port 5000
 
 Веб-интерфейс подключается к API по адресу `http://localhost:5000`.
 
----
-
-### Docker
-
-Сборка и запуск: 
-
-```bash
-docker-compose up --build
-```
-
-После сборки:
-
-API: http://localhost:5000
-
-Веб-интерфейс: http://localhost:5000
-
----
 
 ## Формат запроса
 
